@@ -7,6 +7,7 @@
     <title></title>
     <link href="https://fonts.googleapis.com/css?family=Manjari&display=swap" rel="stylesheet">
     <link rel="stylesheet"href="main.css">
+    <script type="text/javascript" src="index.js"></script>
 </head>
 <body>
     <div class="container">
@@ -27,8 +28,12 @@
             <img src="https://as1.ftcdn.net/v2/jpg/04/95/25/18/1000_F_495251843_gGGrt1c7vK8trebQURRXTWIBXan5T25Z.jpg" width="20" height="20" alt="Texto alternativo que aparecera si la imagen no se carga exitosamente" /> 
             <p></p>San Salvador de Jujuy - Jujuy - Argentina </p>
         <article class="article">
-            <h3>Sobre mí</h3>
-            <p>Apasionado del marketing, me defino por ser una persona con ganas de aprender y un gran lider de equipos multidisciplinario</p>
+            <div>
+                <button class="sobre-mi" onclick="mostrarSobreMi()">
+                    Sobre mí (probar js)
+                </button>                
+            </div>
+            <p id="sobre">Apasionado del marketing, me defino por ser una persona con ganas de aprender y un gran lider de equipos multidisciplinario</p>
         </article>
         <article class="article">
             <h3>Más información</h3>
@@ -39,7 +44,7 @@
         </article>
         
     </main>
-    <asaide class="sidebar">
+    <aside class="sidebar">
         
             
         <div>
@@ -103,10 +108,7 @@
 
 
        
-    </asaide>
-
-    
-    "
+    </aside>
 </div>
 
 

@@ -49,3 +49,10 @@ p {
     text-align:left;
   }
  
+  #sobre {
+    display: none;
+  }
+
+  .sobre-mi {
+    padding: 10px 20px;
+  }
